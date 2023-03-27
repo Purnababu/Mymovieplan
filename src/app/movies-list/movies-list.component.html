@@ -1,0 +1,19 @@
+<p>movies-list works!</p>
+<table>
+      <thead>
+        <tr>
+            <th>ID</th><th>Movie Name</th><th>shoetime</th><th>amout</th><th>year</th>
+        </tr>
+      </thead>
+  <tbody>
+    <tr *ngFor="let mvii of mvs">
+        <td>{{mvii.id}}</td>
+        <td>{{mvii.MovieName}}</td>
+        <td>{{mvii.Showtime}}</td>
+        <td>{{mvii.year}}</td>
+    </tr>
+  </tbody>
+    
+
+
+</table>
